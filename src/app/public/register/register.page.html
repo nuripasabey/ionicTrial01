@@ -1,0 +1,30 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-button (click)="logout()">
+          <ion-icon slot="icon-only" name="log-out"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-title>Register Mode</ion-title>
+    </ion-toolbar>
+</ion-header>
+  
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+        <ion-input placeholder="Mail"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input placeholder="Username"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-input placeholder="Password"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-input placeholder="Password Again"></ion-input>
+    </ion-item>
+    
+  </ion-list>
+  <ion-button (click)="registerMail()" expand="block">Register</ion-button>
+</ion-content>
+  
